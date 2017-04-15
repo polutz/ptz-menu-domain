@@ -7,40 +7,40 @@
 [![bitHound Score](https://www.bithound.io/github/gotwarlost/istanbul/badges/score.svg)](https://www.bithound.io/github/polutz/ptz-menu-domain)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-## Translations
+## Traduções
 [pt-br](https://github.com/polutz/ptz-menu-domain/blob/master/README.pt-br.md)
 [en-us](https://github.com/polutz/ptz-menu-domain/blob/master/README.md)
 
-ptz-menu-domain is a Polutz module.
+ptz-menu-domain é um módulo Polutz.
 
 
-## Use
+## Como usar
 
-### Install
+### Instalação
 ```
     npm install --save ptz-menu-domain
 ```
 
-### How to use
+### Como usar
 ```
     import  from ptz-menu-domain;
 
 ```
 
 
-## Contribute
+## Contribuir com o projeto
 
 ### NPM Global packages
 ```
     npm install -g ts-node babel-cli
 ```
 
-### Setup
+### Instalação
 ```
     npm install   
 ```
 
-### Test
+### Teste
 ```
     npm test
 ```
