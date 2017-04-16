@@ -1,9 +1,9 @@
-interface IMenuItem {
+export interface IMenuItem {
     label: string;
     link: string;
 }
 
-interface IMenu {
+export interface IMenu {
     label: string;
     items: IMenuItem[];
 }
