@@ -1,7 +1,7 @@
 export interface IMenuItem {
     label: string;
-    link: string;
-    subItems: IMenuItem[];
+    link?: string;
+    subItems?: IMenuItem[];
     roles?: string;
 }
 
