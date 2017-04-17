@@ -23,8 +23,26 @@ ptz-menu-domain é um módulo Polutz.
 
 ### Como usar
 ```
-    import  from ptz-menu-domain;
+    import { IMenu } from ptz-menu-domain;
 
+    var menu: IMenu = {
+        label: '',
+        items: [
+            { label: 'Home', link: '/' },
+            { label: 'Github', link: 'https://github.com/polutz/polutz' },
+            { label: 'About Us', link: '/aboutus' },
+            { label: 'Contact', link: '/contact' },
+            { label: 'Faq', link: '/faq' },
+            { label: 'Log In', link: '/users/login' },
+            { label: 'Sign Up', link: '/users/signup' },
+            {
+                label: 'Users',
+                subItems: [
+                    { label: 'User Report', link: '/users/report', role: 'USERS_VIEW' }
+                ]
+            }
+        ]
+    };
 ```
 
 
