@@ -11,7 +11,7 @@
 [pt-br](https://github.com/polutz/ptz-menu-domain/blob/master/README.pt-br.md)
 [en-us](https://github.com/polutz/ptz-menu-domain/blob/master/README.md)
 
-ptz-menu-domain é um módulo Polutz.
+Objetos javascript e Tipos para Menus.
 
 
 ## Como usar
